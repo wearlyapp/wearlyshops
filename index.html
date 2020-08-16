@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="mainstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <title>WearlyShops</title>
+  </head>
+  <body>
+
+    <h1 id="code">code</h1>
+    <h4>ingresa el codigo en la app</h4>
+
+    <script>
+      const queryString = window.location.search;
+
+      const urlParams = new URLSearchParams(queryString);
+
+      const codigo = urlParams.get('code');
+
+      document.getElementById("code").textContent = codigo;
+    </script>
+  </body>
+</html>

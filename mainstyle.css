@@ -1,0 +1,21 @@
+h1 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  padding-top: 20%;
+  font-size: 500%;
+  animation: color-change 5s infinite;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  padding-top: 20%;
+  font-size: 200%;
+
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: red; }
+}
